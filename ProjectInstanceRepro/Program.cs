@@ -21,7 +21,6 @@ namespace ProjectInstanceRepro
         {
             var project = new ProjectInstance(Path.Combine(AppContext.BaseDirectory, "assets", "test.csproj"));
             Console.WriteLine($"Loaded {project.FullPath}");
-            Console.ReadLine();
         }
     }
 }
